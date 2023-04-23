@@ -3,6 +3,12 @@ module lottery_llx
 go 1.17
 
 require (
+	github.com/gomodule/redigo v1.8.2
+	gorm.io/driver/mysql v1.4.7
+	gorm.io/gorm v1.24.6
+)
+
+require (
 	github.com/BurntSushi/toml v1.2.1 // indirect
 	github.com/CloudyKit/fastprinter v0.0.0-20200109182630-33d98a066a53 // indirect
 	github.com/CloudyKit/jet/v4 v4.1.0 // indirect
@@ -90,6 +96,4 @@ require (
 	gopkg.in/go-playground/validator.v9 v9.31.0 // indirect
 	gopkg.in/ini.v1 v1.67.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
-	gorm.io/driver/mysql v1.4.7 // indirect
-	gorm.io/gorm v1.24.6 // indirect
 )

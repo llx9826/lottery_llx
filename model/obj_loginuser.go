@@ -4,6 +4,6 @@ type ObjLoginUser struct {
 	Uid      int
 	Username string
 	Now      int
-	IP       string
+	Ip       string
 	Sign     string
 }
